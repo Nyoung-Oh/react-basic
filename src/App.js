@@ -1,9 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import BtnEventComponent from './components/BtnEventComponent';
+import React, { useState } from 'react'; 
+import KakaoMap from './components/ClassKakaoMap';
+import { Link } from "react-router-dom"; //추가
 
 function App() {
   return (
     <div className="App">
+      {/* <KakaoMap /> */}
+    {/*   <BtnEventComponent nodeValue={<h1>태그노드</h1>}>
+        <h2>자식노드</h2>
+      </BtnEventComponent> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>리액트 앱의 구조를 확인합니다.
@@ -20,6 +28,11 @@ function App() {
         >
           Learn React
         </a>
+        <Link to="/classkakaomap">
+          <button id="btnHome">
+            클래스형 카카오 맵
+          </button>
+        </Link>
       </header>
     </div>
   );
