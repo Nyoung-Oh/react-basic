@@ -1,3 +1,18 @@
+## 클래스형 전기차 충전소 위치 검색이 가능한 React 웹 서비스 개발 및 클라우드 배포 (개인)
+<img src="https://github.com/user-attachments/assets/614b3481-d921-479f-94a4-bc3809866955"  width="800" height="450">
+
+### 🔎 소개 및 목적
+ - Node.js 기반의 React 앱 클라우드 배포
+ - OpenAPI를 활용한 전기차 충전소 위치 검색 서비스 구현
+### 🔎 개발 기간
+2024.05.14 ~ 2024.05.31
+### 🔎 사용 언어 및 개발 환경
+`Node.js` `React` `Docker` `VSCode` `Python` `OPEN API`
+### 🔎 주요 기능
+ - **전기차 충전소 검색, 지도 위에 충전소 위치 표시**
+
+<br/><br/><br/><br/><br/>
+
 ### 리액트 소스 작업 시작 입니다. 05월 14일
 # Getting Started with Create React App
 
